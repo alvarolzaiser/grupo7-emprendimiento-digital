@@ -22,7 +22,7 @@ Clase 8: Sets, Queues y Stacks. Se seleccionó este tema para modelar los flujos
 - **Stack (ArrayDeque):** Modalidad de pila LIFO para deshacer acciones administrativas.
 
 ## Tecnologías
-- Java
+- Java (JDK 17+)
 - Control de versiones: Git & GitHub
 - Planificación: Trello
 
