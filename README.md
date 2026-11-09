@@ -3,7 +3,7 @@ Simulador por consola de una Clínica. Proyecto académico en Java que implement
 
 **Integrantes:**
 - Ledesma (Usuario GitHub: @alvarolzaiser)
-- 
+- Hinojosa(usuario GitHub: @NataliaHinojosa2026)
 - 
 
 **Tablero Kanban:** [Enlace a Trello](https://trello.com/invite/b/6af1cb1ac8bf5db8a590cc29/ATTI37080f0c9531417fa8f7ae4b059e7b53BD3AFE93/grupo7-emprendimiento-digital)
