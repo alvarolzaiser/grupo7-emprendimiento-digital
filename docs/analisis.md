@@ -14,7 +14,13 @@ El objetivo del sistema es automatizar estos flujos mediante la aplicación de e
 
 ### RF-01: Gestión y Validación de Pacientes (Padrón Único)
 > **Responsable:** Hernández  
-> *(lo completa Hernandez, solo dejo la estructura)*
+> **Estructura asignada** 'HashSet<Paciente>' para almacenar pacientes sin duplicados, utilizando el DNI como identificador único.
+El sistema debe permitir registrar nuevos pacientes ingresando sus datos personales (DNI, nombre y apellido).
+Antes de registrar un paciente, el sistema debe verificar que no exista otro paciente con el mismo DNI en el padrón.
+- El sistema debe impedir el registro de pacientes duplicados, garantizando que cada DNI corresponda a un único paciente.
+- El sistema debe permitir consultar si un paciente se encuentra registrado mediante su DNI. 
+- El sistema debe permitir buscar un paciente por DNI y recuperar sus datos personales.
+- Si el DNI ya se encuentra registrado, el sistema debe informar que el paciente ya existe y evitar un nuevo registro.
 
 ---
 
@@ -54,8 +60,11 @@ El objetivo del sistema es automatizar estos flujos mediante la aplicación de e
 ---
 
 ### Módulo: Pacientes y Padrón Único (Hernández)
-> *(lo completa Hernández, solo dejo la estructura: historias de usuario HU-01 y HU-02)*
 
+| ID | Rol | Quiero... | Para... | Criterio de Aceptación |
+|---|---|---|---|---|
+| **HU-01** | Recepcionista | Registrar un nuevo paciente ingresando su DNI, nombre y apellido | Incorporarlo al padrón único de la clínica y disponer de sus datos para futuras consultas | El sistema verifica que el DNI no esté registrado previamente. Si no existe, guarda al paciente en el `HashSet`. Si ya existe, rechaza el registro para evitar duplicados. |
+| **HU-02** | Recepcionista | Buscar un paciente mediante su DNI | Consultar sus datos personales y verificar si se encuentra registrado en la clínica | El sistema busca al paciente por su DNI en el padrón. Si existe, devuelve sus datos personales; de lo contrario, informa que no se encontró ningún paciente. |
 ---
 
 ### Módulo: Turnos Regulares y Menú (Hinojosa)
