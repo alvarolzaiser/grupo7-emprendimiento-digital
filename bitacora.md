@@ -17,3 +17,13 @@
 - **Qué nos trabó:** Ninguna.
 - **Qué sigue:** Día 3 - Crear los diagramas de clases, modelos de datos y justificación técnica de estructuras en `/docs`.
 - **Captura del tablero:** `kanban/dia-2.png`
+
+## Día 3 (11/11/2026)
+- **Qué hicimos:** Elaboración del diagrama de clases del sistema y redacción del documento de justificación técnica y de negocio de las estructuras de datos seleccionadas en `/docs/justificacion.md`.
+- **Quién hizo qué:**
+  - Ledesma: Diseño y exportación del diagrama de clases (`diagrama-clases.png`), creación de la estructura de `justificacion.md` y fundamentación técnica de `PriorityQueue` y `Stack` (ArrayDeque).
+  - Hernández: 
+  - Hinojosa: 
+- **Qué nos trabó:** -
+- **Qué sigue:** Día 4 - Desarrollo I: Creación de las clases base y la primera mitad del código en `/src` (modelos y estructuras individuales).
+- **Captura del tablero:** `kanban/dia-3.png`
