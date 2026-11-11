@@ -13,8 +13,8 @@ El objetivo del sistema es automatizar estos flujos mediante la aplicación de e
 ## 2. Requerimientos Funcionales
 
 ### RF-01: Gestión y Validación de Pacientes (Padrón Único)
-> **Responsable:** Hernández  
-> **Estructura asignada** 'HashSet<Paciente>' para almacenar pacientes sin duplicados, utilizando el DNI como identificador único.
+- **Responsable:** Hernández  
+- **Estructura asignada** 'HashSet<Paciente>' para almacenar pacientes sin duplicados, utilizando el DNI como identificador único.
 El sistema debe permitir registrar nuevos pacientes ingresando sus datos personales (DNI, nombre y apellido).
 Antes de registrar un paciente, el sistema debe verificar que no exista otro paciente con el mismo DNI en el padrón.
 - El sistema debe impedir el registro de pacientes duplicados, garantizando que cada DNI corresponda a un único paciente.
@@ -25,8 +25,8 @@ Antes de registrar un paciente, el sistema debe verificar que no exista otro pac
 ---
 
 ### RF-02: Turnos de Consulta Regular (Orden de Llegada)
-> **Responsable:** Hinojosa  
-> **Estructura asignada:** `Queue<Paciente>` para administrar los turnos regulares mediante el criterio FIFO ( First in, First out).
+- **Responsable:** Hinojosa  
+- **Estructura asignada:** `Queue<Turno>` para administrar los turnos regulares mediante el criterio FIFO ( First in, First out).
 El sistema debe permitir registrar pacientes para consultas generales, incorporándolas al final de una cola de espera, respetando el orden de llegada.
 - El sistema debe permitir consultar cual es el próximo paciente que debe ser atendido.
 - Al solicitar la atención del siguiente turno, el sistema debe retirar al primer paciente de la cola y mostrar sus datos.
@@ -37,10 +37,10 @@ El sistema debe permitir registrar pacientes para consultas generales, incorpor�
 
 ### RF-03: Atención de Urgencias Médicas (Prioridad por Gravedad)
 - **Responsable:** Ledesma
-- **Estructura asignada:** `PriorityQueue<Paciente>` ordenada mediante un `Comparator` por nivel de gravedad.
+- **Estructura asignada:** `PriorityQueue<Urgencia>` ordenada mediante un `Comparator` por nivel de gravedad.
 - El sistema debe admitir el ingreso inmediato de pacientes a la sala de urgencias asignándoles un nivel de gravedad del 1 al 5 (donde 5 representa lo mas grave / código rojo y 1 consulta leve).
 - La atención de urgencias debe priorizar siempre al paciente con mayor numero o nivel de gravedad, sin considerar el orden de llegada.
-- Ante igual nivel de gravedad entre dos pacientes, se toma el criterio de orden de llegada.
+- Ante igual nivel de gravedad entre dos pacientes, se toma el criterio de orden de llegada, el desempate por llegada se resuelve con ordenLlegada.
 - Al solicitar "Atender siguiente urgencia", el sistema remueve al paciente más grave de la cola de prioridad y expone sus datos (el del pacienta que ya fue atendido).
 
 ### RF-04: Módulo de Reversión (Historial / Deshacer)
