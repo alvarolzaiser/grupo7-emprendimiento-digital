@@ -6,7 +6,7 @@
   - Ledesma: Creación del repositorio, estructura de carpetas, README inicial y alta del tablero Kanban.
 - **Qué nos trabó:** Ninguna dificultad en el alta del proyecto.
 - **Qué sigue:** Día 2 - Redacción de casos de uso e historias de usuario en `/docs/analisis.md`.
-- **Captura del tablero:** `kanban/dia-1.png`
+- **Captura del tablero:** `kanban/dia-1.jpg`
 
 ## Día 2 (10/11/2026)
 - **Qué hicimos:** Creación y redacción del documento de análisis y requerimientos en `/docs/analisis.md`. Especificamos el problema del negocio, requerimientos funcionales e historias de usuario por módulo.
@@ -16,7 +16,7 @@
   - Hinojosa: Especificación del requerimiento funcional RF-02: turnos de consulta regular, utilizando la estructura Queue con criterio FIFO. Redacción de las historias de usuario HU-03 y HU-07 y actualización del documento `/docs/analisis.md` en GitHub  
 - **Qué nos trabó:** Ninguna.
 - **Qué sigue:** Día 3 - Crear los diagramas de clases, modelos de datos y justificación técnica de estructuras en `/docs`.
-- **Captura del tablero:** `kanban/dia-2.png`
+- **Captura del tablero:** `kanban/dia-2.jpg`
 
 ## Día 3 (11/11/2026)
 - **Qué hicimos:** Elaboración del diagrama de clases del sistema y redacción del documento de justificación técnica y de negocio de las estructuras de datos seleccionadas en `/docs/justificacion.md`.
@@ -26,4 +26,4 @@
   - Hinojosa: 
 - **Qué nos trabó:** -
 - **Qué sigue:** Día 4 - Desarrollo I: Creación de las clases base y la primera mitad del código en `/src` (modelos y estructuras individuales).
-- **Captura del tablero:** `kanban/dia-3.png`
+- **Captura del tablero:** `kanban/dia-3.jpg`
