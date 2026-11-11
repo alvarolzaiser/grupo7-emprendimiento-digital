@@ -18,7 +18,7 @@ Este documento fundamenta la selección de cada estructura de Java aplicada en e
 
 ## 3. Guardia de Urgencias Médicas: PriorityQueue
 - **Responsable:** Ledesma
-- **Implementación:** `java.util.PriorityQueue<Paciente>` con `Comparator` por nivel de gravedad (5 a 1).
+- **Implementación:** `java.util.PriorityQueue<Urgencia>` con `Comparator` por nivel de gravedad (5 a 1).
 - **Justificación técnica y de negocio:**
   En una guardia médica el orden cronológico de llegada debe romperse si un paciente llega con riesgo de vida. Una cola tradicional (FIFO) haría que un paciente en código rojo (grave) espere detrás de consultas cotidianas.
   - Se eligió PriorityQueue, que utiliza un Heap para organizar los pacientes según su gravedad. El Heap es una estructura que organiza a los pacientes según su gravedad, manteniendo siempre al más grave en la primera posición para poder acceder a él rápidamente.
