@@ -26,7 +26,12 @@ Antes de registrar un paciente, el sistema debe verificar que no exista otro pac
 
 ### RF-02: Turnos de Consulta Regular (Orden de Llegada)
 > **Responsable:** Hinojosa  
-> *(lo completa Hinojosa, solo dejo la estructura)*
+> **Estructura asignada:** `Queue<Paciente>` para administrar los turnos regulares mediante el criterio FIFO ( First in, First out).
+El sistema debe permitir registrar pacientes para consultas generales, incorporándolas al final de una cola de espera, respetando el orden de llegada.
+- El sistema debe permitir consultar cual es el próximo paciente que debe ser atendido.
+- Al solicitar la atención del siguiente turno, el sistema debe retirar al primer paciente de la cola y mostrar sus datos.
+- El sistema debe informar cuando no existan pacientes en espera, evitando errores al intentar atender una cola vacia.
+- la estructura Queue garantizara que el primer paciente en ingresar sea el primero en ser atendido.
 
 ---
 
@@ -68,4 +73,8 @@ Antes de registrar un paciente, el sistema debe verificar que no exista otro pac
 ---
 
 ### Módulo: Turnos Regulares y Menú (Hinojosa)
-> *(lo completa Hinojosa, solo dejo la estructura: historias de usuario HU-03 y HU-07)*
+| ID | Rol | Quiero... | Para... | Criterio de Aceptación |
+|---|---|---|---|---|
+| **HU-03** | Recepcionista | Registrar un paciente en la cola de turnos regulares | Que el paciente obtenga su lugar respetando el orden de llegada | El sistema incorpora al paciente al final de la Queue y conserva el orden de ingreso. |
+| **HU-07** | Recepcionista | Utilizar un menú de consola para seleccionar las operaciones disponibles del sistema | Gestionar los turnos regulares de manera sencilla y ordenada | El sistema muestra las opciones disponibles, permite seleccionar una operación y ejecuta la opción elegida. | 
+---
