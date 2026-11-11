@@ -13,7 +13,7 @@
 - **Quién hizo qué:**
   - Ledesma: Creación de la estructura del documento de análisis, ademas de redactar y colocar la problemática general, especificación técnica de las entidades: Urgencias (PriorityQueue) e Historial (Stack), y también las historias de usuario HU-04, HU-05 y HU-06.
   - Hernández: 
-  - Hinojosa:
+  - Hinojosa: Especificación del requerimiento funcional RF-02: turnos de consulta regular, utilizando la estructura Queue con criterio FIFO. Redacción de las historias de usuario HU-03 y HU-07 y actualización del documento `/docs/analisis.md` en GitHub  
 - **Qué nos trabó:** Ninguna.
 - **Qué sigue:** Día 3 - Crear los diagramas de clases, modelos de datos y justificación técnica de estructuras en `/docs`.
 - **Captura del tablero:** `kanban/dia-2.png`
