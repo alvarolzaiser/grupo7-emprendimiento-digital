@@ -6,7 +6,13 @@ Este documento fundamenta la selección de cada estructura de Java aplicada en e
 
 ## 1. Padrón Único de Pacientes: HashSet
 - **Responsable:** Hernández  
-- *(a completar por Hernández, hay que explicar por qué HashSet y la importancia de equals/hashCode por DNI en este "sistema")*
+- **implementación** java.util.HashSet<Paciente>, utilizado para almacenar los pacientes registrados en el sistema y evitar que existan registros duplicados.
+**Justificación técnica y de negocio:** Se eligió HashSet porque el sistema necesita mantener un padrón único de pacientes, donde cada persona pueda registrarse una sola vez utilizando su DNI como identificador.
+- El HashSet no permite almacenar elementos duplicados, lo que ayuda a evitar que un mismo paciente sea registrado varias veces.
+- Para lograr que el sistema identifique correctamente a los pacientes repetidos, se utilizan los métodos equals() y hashCode() en la clase Paciente.
+- El método equals() permite comparar dos pacientes y determinar si son iguales según su DNI, aunque tengan nombres o apellidos diferentes.
+- El método hashCode() genera un código hash a partir del DNI, que permite al HashSet organizar y localizar los pacientes de manera eficiente.
+- Estas operaciones permiten realizar búsquedas e inserciones con un costo promedio de O(1), es decir, sin tener que recorrer todos los pacientes en condiciones normales. De esta manera, se garantiza que cada DNI corresponda a un único registro dentro del padrón de pacientes.
 
 ---
 
