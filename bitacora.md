@@ -23,7 +23,8 @@
 - **Quién hizo qué:**
   - Ledesma: Diseño y exportación del diagrama de clases (`diagrama-clases-mejorado.png`), creación de la estructura de `justificacion.md` y fundamentación técnica de `PriorityQueue` y `Stack` (ArrayDeque).
   - Hernández: 
-  - Hinojosa: 
+  - Hinojosa: Redacción de la justificación técnica de Queue (ArrayDeque) para la gestión de turnos mediante el principio   FIFO, en /docs/justificacion.md.
+    Desarrollo de las clases ColaTurnos.java y turnos.java.
 - **Qué nos trabó:** -
 - **Qué sigue:** Día 4 - Desarrollo I: Creación de las clases base y la primera mitad del código en `/src` (modelos y estructuras individuales).
 - **Captura del tablero:** `kanban/dia-3.jpg`
