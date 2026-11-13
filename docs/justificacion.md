@@ -12,7 +12,12 @@ Este documento fundamenta la selección de cada estructura de Java aplicada en e
 
 ## 2. Cola de Turnos Regulares: Queue (ArrayDeque)
 - **Responsable:** Hinojosa  
-- *(a completar por Hinojosa, hay que explicar el uso del principio FIFO y la elección de ArrayDeque versus LinkedList)*
+- **implementación** se utiliza `java.util.Queue<turno>` mediante `java.util.ArrayDeque<turno>`
+- **Justificación técnica y de negocio:**
+  Para administrar los turnos regulares de la clínica se eligió la estructura Queue(cola). ya que los pacientes deben ser atendidos respetando el orden de llegada
+  Esta estructura trabaja bajo el principio FIFO (First In, First Out), que significa que el primero en ingresar es el primero en salir. De esta manera, se garantiza un orden de atención justo y organizado.
+  Se utiliza ArrayDeque en lugar de LinkedList porque almacena los elementos mediante un arreglo circular, evitando crear un nodo por cada turno y ofreciendo operaciones eficientes.
+Los métodos principales son offer() para agregar turnos, poll() para atender al siguiente y peek() para consultar quién sigue sin eliminarlo
 
 ---
 
