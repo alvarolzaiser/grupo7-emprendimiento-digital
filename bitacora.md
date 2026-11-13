@@ -28,3 +28,13 @@
 - **Qué nos trabó:** -
 - **Qué sigue:** Día 4 - Desarrollo I: Creación de las clases base y la primera mitad del código en `/src` (modelos y estructuras individuales).
 - **Captura del tablero:** `kanban/dia-3.jpg`
+
+## Día 4 (12/11/2026)
+- **Qué hicimos:** Creación de la primera parte del codigo en `/src`, las entides en `modelo` y luego las estructuras que usan esos objetos en `estructuras`.
+- **Quién hizo qué:**
+  - Ledesma: Diseño y exportación del diagrama de clases (`diagrama-clases-mejorado.png`), creación de la estructura de `justificacion.md` y fundamentación técnica de `PriorityQueue` y `Stack` (ArrayDeque).
+  - Hernández:
+  - Hinojosa: 
+- **Qué nos trabó:** Creación de las clases sin haber definido todos los tipos.
+- **Qué sigue:** Día 5 - Desarrollo II: Segunda mitad del código en `/src` (modelos y estructuras individuales).
+- **Captura del tablero:** `kanban/dia-4.jpg`
