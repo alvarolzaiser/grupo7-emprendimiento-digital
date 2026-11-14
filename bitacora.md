@@ -70,3 +70,15 @@
 - **Captura del tablero:** `kanban/dia-6.jpg`
 
 ![Dia 6](kanban/dia-6.jpg)
+
+## Día 7 (15/11/2026)
+- **Qué hicimos:** Cierre del proyecto integrador. Carga de capturas en el README, revisión general, etc.
+- **Quién hizo qué:**
+  - Ledesma: Revisión final del repositorio, documentación en `README.md` y repaso de la defensa técnica sobre fachada, `PriorityQueue` y `Stack`.
+  - Hernández: Verificación de documentación, pruebas y repaso de la defensa técnica sobre `HashSet` e igualdad por DNI (`equals`/`hashCode`).
+  - Hinojosa: Actualización final del tablero Kanban, verificación del menú principal y repaso de la defensa técnica sobre `Queue` (`ArrayDeque`).
+- **Qué nos trabó:** Ninguna dificultad; el sistema compila y supera todos los casos de prueba planteados.
+- **Qué sigue:** Presentación y defensa oral del proyecto en la semana del 16/11.
+- **Captura del tablero:** `kanban/dia-7.jpg`
+
+![Dia 7](kanban/dia-7.jpg)
