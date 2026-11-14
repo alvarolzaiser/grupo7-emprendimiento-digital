@@ -48,3 +48,13 @@
 - **Qué nos trabó:** Coordinar el menú con cada método de la fachada.
 - **Qué sigue:** Día 6 - Pruebas y ajustes: Tarjetas de pruebas y correcciones.
 - **Captura del tablero:** `kanban/dia-5.jpg`
+
+## Día 6 (14/11/2026)
+- **Qué hicimos:** Integración final de los módulos, pruebas integrales y completas del sistema en consola verificando las cuatro estructuras de datos (`HashSet`, `Queue`, `PriorityQueue` y `Stack`), registro de los casos de prueba en `/pruebas/casos-de-prueba.md` y actualización del `README.md` completo.
+- **Quién hizo qué:**
+  - Ledesma: Ejecución y documentación de los casos de prueba de guardia por prioridad (`Urgencias`) e historial de deshacer (`Historial`/`Accion`), y ajuste de detalles finales de integración.
+  - Hernández: 
+  - Hinojosa: 
+- **Qué nos trabó:** Verificar los casos borde al deshacer acciones (como intentar cancelar un turno o una urgencia que ya habían sido atendidos) para asegurar que el sistema informe la situación correctamente sin alterar el estado.
+- **Qué sigue:** Día 7 - Cierre del proyecto, verificación de todas las tarjetas en la columna "Hecho" del tablero Kanban y preparación para la defensa oral.
+- **Captura del tablero:** `kanban/dia-6.jpg`
