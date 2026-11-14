@@ -27,12 +27,33 @@ Clase 8: Sets, Queues y Stacks. Se seleccionó este tema para modelar los flujos
 - Planificación: Trello
 
 ## Cómo ejecutar el proyecto
-1. Clonar el repositorio: `git clone https://github.com/alvarolzaiser/grupo7-emprendimiento-digital.git`
-2. Abrir en Eclipse / IDE de preferencia como proyecto Java existente.
-3. Ejecutar la clase `clinica.Main`.
+1. **Clonar el repositorio:**
+   ```bash
+   git clone https://github.com/alvarolzaiser/grupo7-emprendimiento-digital.git
+   cd grupo7-emprendimiento-digital
+   ```
+
+2. **Compilar los archivos desde la raíz del proyecto:**
+   ```bash
+   javac -d bin src/clinica/modelo/*.java src/clinica/estructuras/*.java src/clinica/*.java
+   ```
+
+3. **Ejecutar el programa interactivo:**
+   ```bash
+   java -cp bin clinica.Main
+   ```
+
+> También puede abrirse directamente la carpeta del proyecto en **VS Code** o **Eclipse** y ejecutar `src/clinica/Main.java`
 
 ## Funcionalidades
 - Registro y validación de pacientes sin duplicados.
 - Poner en colas y atender turnos por orden cronológico.
 - Ingreso y atención de urgencias por nivel de prioridad.
 - Módulo de reversión (deshacer última acción).
+
+## Capturas de pantalla
+(Imágenes o salida de consola.)
+## Pruebas realizadas
+(Resumen y enlace a la carpeta /pruebas.)
+## Conclusiones
+(Qué aprendimos, qué dificultades tuvimos, qué mejoraríamos.)
