@@ -19,7 +19,7 @@ public class Turno {
 	
 	@Override
 	public String toString() {
-		return "Turno N° " + numero + "-" + paciente;
+		return "Turno N° " + numero + " - " + paciente;
 	}
 
 }
