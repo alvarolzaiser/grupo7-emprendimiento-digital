@@ -13,7 +13,7 @@ public class Turno {
 		return numero;
 	}
 	
-	public Paciente getpaciente() {
+	public Paciente getPaciente() {
 		return paciente;
 	}
 	
