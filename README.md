@@ -46,10 +46,15 @@ Clase 8: Sets, Queues y Stacks. Se seleccionó este tema para modelar los flujos
 > También puede abrirse directamente la carpeta del proyecto en **VS Code** o **Eclipse** y ejecutar `src/clinica/Main.java`
 
 ## Funcionalidades
-- Registro y validación de pacientes sin duplicados.
-- Poner en colas y atender turnos por orden cronológico.
-- Ingreso y atención de urgencias por nivel de prioridad.
-- Módulo de reversión (deshacer última acción).
+
+1. **Registrar paciente (`Set`):** Da de alta un paciente validando que el DNI no esté vacío ni repetido en el padrón.
+2. **Buscar paciente por DNI (`Set`):** Verifica la existencia en O(1) y recupera los datos del paciente registrado.
+3. **Dar turno regular (`Queue`):** Asigna un número incremental de turno a un paciente registrado y lo encola al final de la fila FIFO.
+4. **Ver próximo turno (`Queue - peek`):** Muestra quién sigue en la fila de turnos regulares sin retirarlo de la espera.
+5. **Atender turno (`Queue - poll`):** Llama y retira de la cola al primer paciente en espera.
+6. **Ingresar urgencia (`PriorityQueue`):** Ingresa un paciente registrado a la guardia con nivel de gravedad (1 a 5), validando que no esté ya en guardia.
+7. **Atender urgencia (`PriorityQueue - poll`):** Atiende al paciente de mayor gravedad (y menor orden de llegada en caso de empate).
+8. **Deshacer última acción (`Stack`):** Revierte la última alta, turno o ingreso a guardia. Por regla de negocio, la atención de un paciente ya realizada no se deshace, y si se intenta cancelar un turno/urgencia ya atendido, el sistema lo informa.
 
 ## Capturas de pantalla
 (Imágenes o salida de consola.)
