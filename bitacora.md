@@ -30,11 +30,21 @@
 - **Captura del tablero:** `kanban/dia-3.jpg`
 
 ## Día 4 (12/11/2026)
-- **Qué hicimos:** Creación de la primera parte del codigo en `/src`, las entides en `modelo` y luego las estructuras que usan esos objetos en `estructuras`.
+- **Qué hicimos:** Creación de la primera parte del codigo en `/src`, las entides en `modelo` y luego las estructuras que van a almacenar esos modelos en `estructuras`.
 - **Quién hizo qué:**
-  - Ledesma: Diseño y exportación del diagrama de clases (`diagrama-clases-mejorado.png`), creación de la estructura de `justificacion.md` y fundamentación técnica de `PriorityQueue` y `Stack` (ArrayDeque).
+  - Ledesma: Implementación del modelo `Urgencia.java` (junto a su estructura `Urgencias.java`) y de las estructuras `Accion.java` y `Historial.java`.
   - Hernández:
   - Hinojosa: 
-- **Qué nos trabó:** Creación de las clases sin haber definido todos los tipos.
+- **Qué nos trabó:** Creación de las clases sin haber definido todos los tipos (Paciente, Turno, etc).
 - **Qué sigue:** Día 5 - Desarrollo II: Segunda mitad del código en `/src` (modelos y estructuras individuales).
 - **Captura del tablero:** `kanban/dia-4.jpg`
+
+## Día 5 (13/11/2026)
+- **Qué hicimos:** Se completó el menú interactivo en `Main.java` y se crearon todos los metodos de la fachada `Clinica.java`, todos esos metodos son usados por `Main.java`, y ademas Clinica se encarga de llamar a los métodos propios de cada estructura para cada acción de la fachada.
+- **Quién hizo qué:**
+  - Ledesma: Creación de la fachada `Clinica.java`, con todos los metodos que debe exponer al `Main.java`.
+  - Hernández:
+  - Hinojosa: 
+- **Qué nos trabó:** Coordinar el menú con cada método de la fachada.
+- **Qué sigue:** Día 6 - Pruebas y ajustes: Tarjetas de pruebas y correcciones.
+- **Captura del tablero:** `kanban/dia-5.jpg`
