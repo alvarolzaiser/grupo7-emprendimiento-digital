@@ -5,7 +5,7 @@ import java.util.Objects;
 /** Paciente de la clínica. Dos pacientes son iguales si tienen el mismo DNI. */
 public class Paciente {
     private final String dni;
- private final String nombre;
+    private final String nombre;
     private final String apellido;
 
     public Paciente(String dni, String nombre, String apellido) {
