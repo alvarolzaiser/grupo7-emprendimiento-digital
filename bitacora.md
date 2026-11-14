@@ -8,6 +8,8 @@
 - **Qué sigue:** Día 2 - Redacción de casos de uso e historias de usuario en `/docs/analisis.md`.
 - **Captura del tablero:** `kanban/dia-1.jpg`
 
+![Dia 1](kanban/dia-1.jpg)
+
 ## Día 2 (10/11/2026)
 - **Qué hicimos:** Creación y redacción del documento de análisis y requerimientos en `/docs/analisis.md`. Especificamos el problema del negocio, requerimientos funcionales e historias de usuario por módulo.
 - **Quién hizo qué:**
@@ -17,6 +19,8 @@
 - **Qué nos trabó:** Ninguna.
 - **Qué sigue:** Día 3 - Crear los diagramas de clases, modelos de datos y justificación técnica de estructuras en `/docs`.
 - **Captura del tablero:** `kanban/dia-2.jpg`
+
+![Dia 2](kanban/dia-2.jpg)
 
 ## Día 3 (11/11/2026)
 - **Qué hicimos:** Elaboración del diagrama de clases del sistema y redacción del documento de justificación técnica y de negocio de las estructuras de datos seleccionadas en `/docs/justificacion.md`.
@@ -29,6 +33,8 @@
 - **Qué sigue:** Día 4 - Desarrollo I: Creación de las clases base y la primera mitad del código en `/src` (modelos y estructuras individuales).
 - **Captura del tablero:** `kanban/dia-3.jpg`
 
+![Dia 3](kanban/dia-3.jpg)
+
 ## Día 4 (12/11/2026)
 - **Qué hicimos:** Creación de la primera parte del codigo en `/src`, las entides en `modelo` y luego las estructuras que van a almacenar esos modelos en `estructuras`.
 - **Quién hizo qué:**
@@ -38,6 +44,8 @@
 - **Qué nos trabó:** Creación de las clases sin haber definido todos los tipos (Paciente, Turno, etc).
 - **Qué sigue:** Día 5 - Desarrollo II: Segunda mitad del código en `/src` (modelos y estructuras individuales).
 - **Captura del tablero:** `kanban/dia-4.jpg`
+
+![Dia 4](kanban/dia-4.jpg)
 
 ## Día 5 (13/11/2026)
 - **Qué hicimos:** Se completó el menú interactivo en `Main.java` y se crearon todos los metodos de la fachada `Clinica.java`, todos esos metodos son usados por `Main.java`, y ademas Clinica se encarga de llamar a los métodos propios de cada estructura para cada acción de la fachada.
@@ -49,6 +57,8 @@
 - **Qué sigue:** Día 6 - Pruebas y ajustes: Tarjetas de pruebas y correcciones.
 - **Captura del tablero:** `kanban/dia-5.jpg`
 
+![Dia 5](kanban/dia-5.jpg)
+
 ## Día 6 (14/11/2026)
 - **Qué hicimos:** Integración final de los módulos, pruebas integrales y completas del sistema en consola verificando las cuatro estructuras de datos (`HashSet`, `Queue`, `PriorityQueue` y `Stack`), registro de los casos de prueba en `/pruebas/casos-de-prueba.md` y actualización del `README.md` completo.
 - **Quién hizo qué:**
@@ -58,3 +68,5 @@
 - **Qué nos trabó:** Verificar los casos borde al deshacer acciones (como intentar cancelar un turno o una urgencia que ya habían sido atendidos) para asegurar que el sistema informe la situación correctamente sin alterar el estado.
 - **Qué sigue:** Día 7 - Cierre del proyecto, verificación de todas las tarjetas en la columna "Hecho" del tablero Kanban y preparación para la defensa oral.
 - **Captura del tablero:** `kanban/dia-6.jpg`
+
+![Dia 6](kanban/dia-6.jpg)
